@@ -1,0 +1,29 @@
+
+
+#realice un programa que lea tres numeros, muestre cual es el mayor y determine si es par o impar
+
+num1= int(input("Ingrese un primer numero: "))
+num2= int(input("Ingrese un segundo numero: "))
+num3= int(input("Ingrese un tercer nunero: "))
+
+if num1 > num2 and num1 > num3:
+    print( "El mayor es: ", num1)
+elif num2 > num1 and num2 > num3:
+    print("El mayor es: ", num2)
+else:
+    print("El mayor es: ", num3)
+
+if num1 % 2 == 0:
+    print("Es par: ", num1)
+else: 
+    print ("Es impar", num1 )
+
+if num2 % 2 ==0:
+    print("Es par: ", num2)
+else: 
+    print ("Es impar", num2)
+
+if num3 % 2 ==0:
+    print("Es par: ", num3)
+else: 
+    print ("Es impar", num3 )
